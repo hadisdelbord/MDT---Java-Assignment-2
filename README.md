@@ -1,5 +1,7 @@
 # Car Filtering and Saving Program
 
+Student: Hadis Delbord - 7222043
+
 ## Description
 This Java program allows the user to filter a list of car objects based on three different criteria and save the results to a file. The program first presents the user with three filtering options. After selecting a filter and entering the necessary inputs, the program searches the car array for matching results. If any cars meet the filtering criteria, they are saved to a file.
 

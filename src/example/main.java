@@ -121,13 +121,12 @@ public class main {
 
 		do {
 
-
 			if (FilterType.equalsIgnoreCase("a")) {
 
 				System.out.print("name of brand: ");
 				String inputText = scanner.nextLine();
 				for (Car c : cars) {
-					if (c.getMake().equals(inputText)) { // compare of strings
+					if (c.getMake().equals(inputText)) {
 						ListOutput += c.toString() + '\n';
 					}
 				}
@@ -181,6 +180,7 @@ public class main {
 			
 
 		} while (true);
+		
 		if (!ListOutput.equals("")) {
 			SaveToFile(ListOutput);
 		} else {
@@ -188,7 +188,6 @@ public class main {
 		}
 
 		
-//		scanner.close();
 	}
 
 }
